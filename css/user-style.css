@@ -40,6 +40,11 @@ h3 {
 	color: #fff;
 	text-align: center;
 	margin-top: 15%;
+    position:fixed;
+    width: 75%;
+    left: 50%;
+    top: 20%;
+    margin: 0 0 0 -37.5%;
 }
 .parallax-content {
 	max-width: 100%;
@@ -98,4 +103,20 @@ i, cite, em, var, address, dfn {
 }
 .spacer_80 {
   margin-top: 80px;
+}
+
+.panel.blues {
+    background: -webkit-linear-gradient(135deg, #69c8e7 0%, #49d3b4 100%);
+    background: -moz-linear-gradient(135deg, #69c8e7 0%, #49d3b4 100%);
+    background: -o-linear-gradient(135deg, #69c8e7 0%, #49d3b4 100%);
+    background: -ms-linear-gradient(135deg, #69c8e7 0%, #49d3b4 100%);
+    background: linear-gradient(-45deg, #69c8e7 0%, #49d3b4 100%); 
+    border-radius: 5px;
+    box-shadow: 3px 5px 9px 0.00px rgba(0, 0, 0, 0.18);
+    height: auto;
+    width: 100%;
+}
+
+.large-text {
+    font-size: 30px;   
 }
